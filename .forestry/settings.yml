@@ -16,6 +16,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: ''
+  label: Produits
+  create: all
+  match: content/products/**/*
+  templates:
+  - post
 - type: heading
   label: Data
 - type: directory
